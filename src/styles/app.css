@@ -1,0 +1,23 @@
+:root {
+  font-family: -apple-system, 'Segoe UI', system-ui, sans-serif;
+  color: #161616;
+  background: #f4f4f4;
+}
+body { margin: 0; }
+.app { max-width: 1100px; margin: 0 auto; padding: 24px 16px; }
+.app__header h1 { margin: 0; }
+.muted { color: #6f6f6f; font-weight: normal; }
+.card { background: #fff; border: 1px solid #e0e0e0; padding: 16px; margin: 16px 0; }
+.card__header h2 { margin: 0; font-size: 1.1rem; }
+.quote-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 12px; }
+.quote-grid .card { margin: 0; }
+.quote-card h3 { margin: 0 0 8px; font-size: 1rem; }
+.quote-card__price { font-size: 1.4rem; margin: 0; }
+.quote-card--up .quote-card__change { color: #198038; }
+.quote-card--down .quote-card__change { color: #da1e28; }
+.tabs { display: flex; gap: 8px; margin-top: 8px; }
+.tab { padding: 8px 16px; border: 1px solid #c6c6c6; background: #fff; cursor: pointer; }
+.tab--active { background: #0f62fe; color: #fff; border-color: #0f62fe; }
+.state { padding: 24px; text-align: center; }
+.state--error { color: #da1e28; }
+.notice { background: #fcf4d6; padding: 8px 12px; margin: 8px 0; }
